@@ -11,14 +11,17 @@
 
 <body>
     <canvas id="myCanvas" width="120" height="120">
+        <img id="canvasimg" src="" />
+
 
 </body>
 
 <script>
 
     function pixelRandomization(pixelData) {
-        debugger
+
         var canvas = document.createElement("canvas");
+
         var ctx = canvas.getContext('2d');
         canvas.width = canvas.height = 120;
 
@@ -33,10 +36,13 @@
 
         ctx.putImageData(imgData, 0, 0);
         document.body.appendChild(canvas);
-        var img = canvas.toDataURL("image/png");
-        document.write('<img src="' + img + '"/>');
-
-
+        var link = document.createElement('a');
+        link.innerHTML = 'download image';
+        link.addEventListener('click', function (ev) {
+            link.href = canvas.toDataURL();
+            link.download = "randomImg.png";
+        }, false);
+        document.body.appendChild(link);
     }
 
     var randomData;

@@ -1,3 +1,26 @@
 #myCanvas {
 	display: none;
 }
+
+canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+}
+
+a {
+	text-align: center;
+	color: aliceblue;
+	position: absolute;
+	background: rgb(6, 93, 253);
+	bottom: 0px;
+	right: 25%;
+	left: 50%;
+	margin-left: -150px;
+	text-decoration: none;
+	cursor: pointer;
+}
