@@ -1,3 +1,11 @@
-this repo contains code from my software exam with radiate.
+#This repo contains all the code for my software test with @Radiate
 
-To run simply enter node index.js or nodemon index.js into root directory terminal, then navigate to localhost:3000 in browser
+###To execute this code:
+
+1. clone the repo or download the code in a zip file
+2. navigate to root directory and run "npm install".  
+3. Once downloads finished run "node index.js"
+4. navigate to localhost:3000 to view finished result.
+
+Please let me know if you have any questions!
+-Dylan
