@@ -1,3 +1,3 @@
 this repo contains code from my software exam with radiate.
 
-To run simply enter node index.js or nodemon index.js into root directory, then navigate to localhost:3000
+To run simply enter node index.js or nodemon index.js into root directory terminal, then navigate to localhost:3000 in browser
