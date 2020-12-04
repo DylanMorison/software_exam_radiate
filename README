@@ -1,6 +1,6 @@
-#This repo contains all the code for my software test with @Radiate#
+Markup : #This repo contains all the code for my software test with @Radiate#
 
-###To execute this code:###
+Markup : ###To execute this code:###
 
 1. clone the repo or download the code in a zip file
 2. navigate to root directory and run "npm install".  
